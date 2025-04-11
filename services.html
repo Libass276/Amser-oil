@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products & Services | Amser Oil</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .section {
+      padding: 60px 20px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer a {
+      color: #FF0000;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="placeholder-logo.png" alt="Amser Oil Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Products & Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="csr.html">CSR</a></li>
+          <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Products & Services Section -->
+  <section class="section" data-aos="fade-up">
+    <div class="container text-center">
+      <h2>Our Products & Services</h2>
+      <p class="lead">At Amser Oil, we offer a wide range of products and services designed to meet the needs of our clients. From high-quality fuel to sustainable energy solutions, we’re committed to providing reliable and efficient services.</p>
+
+      <div class="row g-4">
+        <!-- Product 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Fuel Delivery Service" />
+            <div class="card-body">
+              <h5 class="card-title">Fuel Delivery Service</h5>
+              <p class="card-text">We provide on-demand fuel delivery services to industries, power plants, and residential areas. Fast, safe, and reliable fuel delivery.</p>
+              <a href="contact.html" class="btn btn-danger">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Sustainable Energy Solutions" />
+            <div class="card-body">
+              <h5 class="card-title">Sustainable Energy Solutions</h5>
+              <p class="card-text">We specialize in renewable energy solutions, including solar power systems, to reduce your carbon footprint and energy costs.</p>
+              <a href="contact.html" class="btn btn-danger">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Oil Refueling Services" />
+            <div class="card-body">
+              <h5 class="card-title">Oil Refueling Services</h5>
+              <p class="card-text">We offer oil refueling services for businesses and industrial equipment, ensuring smooth operations with timely refueling solutions.</p>
+              <a href="contact.html" class="btn btn-danger">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Amser Oil. All rights reserved.</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">LinkedIn</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
